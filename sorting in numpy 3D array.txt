@@ -1,0 +1,6 @@
+import numpy as np  #importing NumPy
+
+my_arr = np.array([[[17,11],[13,9]],[[1,27],[0,7]]]) #defining 3D array
+
+for i in np.sort(np.nditer(my_arr)): #printing the elements from the 3D array in sorted manner
+  print(i)
